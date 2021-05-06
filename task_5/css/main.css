@@ -1,0 +1,23 @@
+header {
+  background-color: blueviolet;
+  opacity: 0.5;
+}
+
+body {
+  font-family: 'Orelega One', cursive;
+  font-size: medium;
+  font-weight: 100;
+  margin: 1;
+  color: #000080;
+  text-align: center;
+  border: 20 px rgb(68, 0, 255);
+}
+
+#wrapper {
+  position: relative;
+  overflow-x: hidden;
+}
+
+
+
+

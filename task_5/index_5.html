@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet"> 
+
+    <style>
+        .box {
+          width: 200px; 
+          height: 200px;
+          border: 10px solid rgb(179, 29, 104);
+          border-radius: 0 50px 50px 0;
+          padding: 10px;
+          margin: 10px;
+        }
+
+        #Roses {
+          position: relative;
+          background-color: rgb(221, 155, 201)
+        }
+         
+        #Violets {
+          position: absolute;
+          left:20%;
+          background: rgb(95, 4, 131);
+        }
+
+        #Liles{
+          top: 200px;
+          position:fixed
+          right: 500px;
+        
+        }
+
+        .box p{
+          color:rgb(32, 3, 32)
+        }
+        .box + p{
+          color:green
+        }
+  
+      .layer1 {
+        float: left; 
+        background: rgb(199, 142, 204); 
+        border: 1px solid rgb(64, 5, 78); 
+        padding: 10px; 
+        margin-right: 20px; 
+        width: 40%; 
+    </style>
+</head>
+<body>    
+               
+  <div class="box" id="Roses">Roses</div>
+  <div class="box" id="Violets">Violets</div>
+  <div class="box" id="Lilies">Lilies</div>            
+               
+    <p>And other flowers</p>
+    <p>From all over the world</p>
+    
+  <div class="layer1">
+    A bouquet of original and cute roses will delight any customer with its abundance of buds and tenderness of shades of flowers from white, pale pink, to bright orange and red. 
+  </div>
+  <div>
+    The spring sun can make even the most hopeless pessimist smile. 
+  </div>
+          
+</body>
+</html>
