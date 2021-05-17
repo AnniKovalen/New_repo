@@ -9,7 +9,7 @@
 }
 
 .header ul {
-  padding: 20 px 0;
+  padding: 20px 0;
 }
 
 .header li {
@@ -44,7 +44,7 @@
 }
 
 p {
-  width: 20px
+  width: 20px;
   font-style: italic;
   word-wrap: break-word;
 }
